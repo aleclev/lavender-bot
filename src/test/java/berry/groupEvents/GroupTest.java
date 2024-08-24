@@ -60,7 +60,7 @@ public class GroupTest {
     @Test
     public void givenGroupWithUser_whenRemovingUserWhoIsInGroup_thenUserIsRemovedFromGroup() {
 
-        smallGroup.addUser(user1);
+        smallGroup.addUser(user1); 
 
         smallGroup.removeUser(user1);
 
