@@ -1,6 +1,6 @@
-package berry.groupEvents.exceptions;
+package berry.groupEvents.domain.exceptions;
 
-import berry.groupEvents.Group;
+import berry.groupEvents.domain.Group;
 
 public class FullGroupException extends RuntimeException {
     

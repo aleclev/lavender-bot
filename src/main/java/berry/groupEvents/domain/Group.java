@@ -1,11 +1,11 @@
-package berry.groupEvents;
+package berry.groupEvents.domain;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import berry.groupEvents.exceptions.FullGroupException;
-import berry.groupEvents.exceptions.UserAlreadyInGroupException;
-import berry.groupEvents.exceptions.UserNotInGroupException;
+import berry.groupEvents.domain.exceptions.FullGroupException;
+import berry.groupEvents.domain.exceptions.UserAlreadyInGroupException;
+import berry.groupEvents.domain.exceptions.UserNotInGroupException;
 
 public class Group {
 

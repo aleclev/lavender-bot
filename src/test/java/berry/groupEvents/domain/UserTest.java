@@ -1,7 +1,6 @@
-package berry.groupEvents;
+package berry.groupEvents.domain;
 
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 
 public class UserTest {
 

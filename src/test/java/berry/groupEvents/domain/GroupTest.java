@@ -1,4 +1,4 @@
-package berry.groupEvents;
+package berry.groupEvents.domain;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -6,11 +6,11 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import berry.groupEvents.domain.exceptions.FullGroupException;
+import berry.groupEvents.domain.exceptions.UserAlreadyInGroupException;
+import berry.groupEvents.domain.exceptions.UserNotInGroupException;
 
-import berry.groupEvents.exceptions.FullGroupException;
-import berry.groupEvents.exceptions.UserAlreadyInGroupException;
-import berry.groupEvents.exceptions.UserNotInGroupException;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class GroupTest {
     

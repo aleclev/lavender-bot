@@ -1,7 +1,7 @@
-package berry.groupEvents.exceptions;
+package berry.groupEvents.domain.exceptions;
 
-import berry.groupEvents.Group;
-import berry.groupEvents.User;
+import berry.groupEvents.domain.Group;
+import berry.groupEvents.domain.User;
 
 public class UserAlreadyInGroupException extends RuntimeException {
     
